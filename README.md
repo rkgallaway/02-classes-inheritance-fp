@@ -6,6 +6,9 @@
 ### Author: Ryan Gallaway
 
 ### Links and Resources
+
+[![Build Status](https://www.travis-ci.com/rkgallaway/02-classes-inheritance-fp.svg?branch=master)](https://www.travis-ci.com/rkgallaway/02-classes-inheritance-fp)
+
 * [repo](https://github.com/rkgallaway/02-classes-inheritance-fp)
 * [travis](https://www.travis-ci.com/rkgallaway/02-classes-inheritance-fp)
 * [back-end](https://lab-02-classes-inheritance-fp.herokuapp.com/)
