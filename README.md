@@ -6,13 +6,18 @@
 ### Author: Ryan Gallaway
 
 ### Links and Resources
+
+[![Build Status](https://www.travis-ci.com/rkgallaway/02-classes-inheritance-fp.svg?branch=master)](https://www.travis-ci.com/rkgallaway/02-classes-inheritance-fp)
+
 * [repo](https://github.com/rkgallaway/02-classes-inheritance-fp)
 * [travis](https://www.travis-ci.com/rkgallaway/02-classes-inheritance-fp)
-* [back-end](https://lab-02-classes-inheritance-fp.herokuapp.com/)
-* [front-end](http://xyz.com)
+* [server](https://lab-02-classes-inheritance-fp.herokuapp.com/)
 
 ### Modules
-#### `modulename.js`
+#### `vehicle-class.js`
+#### `vehicle-constructor.js`
+#### `vehicle-factory.js`
+
 ##### Exported Values and Methods
 
 ###### `foo(thing) -> string`
@@ -23,20 +28,15 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - port described in .env
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* Endpoint: `index.js`
 
 #### Tests
-* How do you run tests?
+* * npm test (runs unit tests)
+* npm run  lint (runs linter tests)
 * What assertions were made?
 * What assertions need to be / should be made?
 
-#### UML
-Link to an image of the UML for your application and response to events
