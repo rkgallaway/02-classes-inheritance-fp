@@ -15,9 +15,11 @@
 
 ### Modules
 #### `vehicle-class.js`
+creates establishes classes for Car, Motorcycle, Helicopter, and Airplane
 #### `vehicle-constructor.js`
+contains constructors for Car, Motorcycle, Helicopter, and Airplane
 #### `vehicle-factory.js`
-
+contains factory functions for Car, Motorcycle, Helicopter, and Airplane
 ##### Exported Values and Methods
 
 ###### `foo(thing) -> string`
@@ -35,7 +37,7 @@ Usage Notes or examples
 * Endpoint: `index.js`
 
 #### Tests
-* * npm test (runs unit tests)
+* npm test (runs unit tests)
 * npm run  lint (runs linter tests)
 * What assertions were made?
 * What assertions need to be / should be made?
